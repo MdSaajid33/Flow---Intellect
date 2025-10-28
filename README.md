@@ -1,0 +1,139 @@
+FlowIntellect - No-Code AI Workflow Builder
+### 🚀 Overview
+- Visual AI workflow builder with drag-drop interface. Create intelligent automation systems without coding.
+
+### ✨ Features
+1- 🧩 Drag-Drop Workflow Builder - React Flow based visual designer
+2- 🤖 Multi-AI Integration - Gemini AI with web search
+3- 📚 Smart Knowledge Base - PDF/DOCX/TXT processing with semantic search
+4- 💬 Context-Aware Chat - Blends document knowledge with web data
+5- 💾 Workflow Persistence - Save, load, and manage workflows
+6- 🎨 Professional UI - Glass morphism design with animations
+
+### 🛠 Tech Stack
+- Frontend: React.js, React Flow, CSS-in-JS
+- Backend: FastAPI, SQLite, PyMuPDF
+- AI: Google Gemini, SerpAPI
+
+### Project Structure
+
+flowintellect/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── database_models.py
+│   │   └── services/
+│   │       ├── real_ai_service.py
+│   │       └── real_web_search.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── uploaded_documents/
+│---Demo/ project-demo.mp4
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── UserQueryNode.jsx
+│   │   │   ├── LLMEngineNode.jsx
+│   │   │   ├── KnowledgeBaseNode.jsx
+│   │   │   └── OutputNode.jsx
+│   │   └── styles/
+│   ├── package.json
+│   └── .env
+│
+├── README.md
+├── .gitignore
+└── requirements.txt
+
+
+### 🚀 Quick Start
+Prerequisites
+
+- Python 3.8+
+- Node.js 16+
+- Gemini API Key
+
+### 1- Installation
+Backend Setup
+- cd backend
+- pip install -r requirements.txt
+
+### 2- Environment Setup
+Create backend/.env:
+- GEMINI_API_KEY=your_gemini_api_key
+- DATABASE_URL=sqlite:///./flowintellect.db
+
+### 3- Frontend Setup
+- cd frontend
+- npm install
+
+### 4- Run Application
+# Terminal 1 - Backend
+cd backend
+python -m uvicorn app.main:app --reload --port 8000
+
+# Terminal 2 - Frontend
+cd frontend
+npm run dev
+
+## Access
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
+
+💡 Usage
+### Build Workflow
+- Drag components: User Query → Knowledge Base → LLM Engine → Output
+- Upload documents to Knowledge Base
+- Enable "Use Context" for AI knowledge
+- Toggle web search in LLM Engine
+- Validate and save workflow
+- Start chatting with AI
+
+### Components
+- 👤 User Query - Input interface
+
+- 📚 Knowledge Base - Document upload & search
+
+- 🤖 LLM Engine - AI processing with web search
+
+- 💬 Output - Chat interface
+
+### ✅ Requirements Met
+
+1- ✅ 4 core components with drag-drop
+2- ✅ Workflow validation & execution
+3- ✅ Document processing (PyMuPDF)
+4- ✅ AI integration (Gemini)
+5- ✅ Web search (SerpAPI)
+6- ✅ Database persistence
+7- ✅ Professional UI/UX
+8- ✅ Chat interface
+
+### 🐛 Troubleshooting
+
+## 1- Chat not working?
+- Check Gemini API key in .env
+- Ensure backend running on port 8000
+- Validate workflow before chatting
+
+## 2- File upload issues?
+- Supported: PDF, TXT, DOCX
+- Check file size limits
+- Verify PyMuPDF installed
+
+## 3- API quota exceeded?
+- Gemini free tier: 50 requests/day
+- Wait 24 hours or use new API key
+
+
+
+## Demo Video
+
+Watch the demo here: [Demo/project-demo.mp4](./demo/project-demo.mp4)
+
+Finally..!!
+## Start building: npm run dev + python -m uvicorn app.main:app --reload --port 8000
+
+## Built with React, FastAPI, and cutting-edge AI technologies.
+
