@@ -136,10 +136,11 @@ npm run dev
 - Wait 24 hours or use new API key
 
 
-
-## 🎥 Demo Video
-
-![Project Demo Video](https://github.com/MdSaajid33/Flow---Intellect/raw/main/Demo/project-demo.mp4)
+## 🚀 Quick Demo
+<video width="800" controls>
+  <source src="https://github.com/MdSaajid33/Flow---Intellect/raw/main/Demo/project-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Click the video above to watch the demo!**
 
