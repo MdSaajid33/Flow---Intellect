@@ -137,9 +137,11 @@ npm run dev
 
 
 
-## Demo Video
+## 🎥 Demo Video
 
-- Watch the demo here: [Demo/project-demo.mp4](./demo/project-demo.mp4)
+![Project Demo Video](https://github.com/MdSaajid33/Flow---Intellect/raw/main/Demo/project-demo.mp4)
+
+**Click the video above to watch the demo!**
 
 ## Finally..!!
 
