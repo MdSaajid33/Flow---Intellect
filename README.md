@@ -1,22 +1,28 @@
 FlowIntellect - No-Code AI Workflow Builder
 ### 🚀 Overview
+
 - Visual AI workflow builder with drag-drop interface. Create intelligent automation systems without coding.
 
 ### ✨ Features
-1- 🧩 Drag-Drop Workflow Builder - React Flow based visual designer
-2- 🤖 Multi-AI Integration - Gemini AI with web search
-3- 📚 Smart Knowledge Base - PDF/DOCX/TXT processing with semantic search
-4- 💬 Context-Aware Chat - Blends document knowledge with web data
-5- 💾 Workflow Persistence - Save, load, and manage workflows
-6- 🎨 Professional UI - Glass morphism design with animations
+
+## 🚀 Features
+
+- 🧩 **Drag-Drop Workflow Builder** - React Flow based visual designer
+- 🤖 **Multi-AI Integration** - Gemini AI with web search  
+- 📚 **Smart Knowledge Base** - PDF/DOCX/TXT processing with semantic search
+- 💬 **Context-Aware Chat** - Blends document knowledge with web data
+- 💾 **Workflow Persistence** - Save, load, and manage workflows
+- 🎨 **Professional UI** - Glass morphism design with animations
+
 
 ### 🛠 Tech Stack
 - Frontend: React.js, React Flow, CSS-in-JS
 - Backend: FastAPI, SQLite, PyMuPDF
 - AI: Google Gemini, SerpAPI
 
-### Project Structure
+## 📁 Project Structure
 
+```
 flowintellect/
 ├── backend/
 │   ├── app/
@@ -28,7 +34,8 @@ flowintellect/
 │   ├── requirements.txt
 │   ├── .env
 │   └── uploaded_documents/
-│---Demo/ project-demo.mp4
+├── Demo/
+│   └── project-demo.mp4
 ├── frontend/
 │   ├── public/
 │   ├── src/
@@ -41,10 +48,10 @@ flowintellect/
 │   │   └── styles/
 │   ├── package.json
 │   └── .env
-│
 ├── README.md
 ├── .gitignore
 └── requirements.txt
+```
 
 
 ### 🚀 Quick Start
@@ -101,14 +108,16 @@ npm run dev
 
 ### ✅ Requirements Met
 
-1- ✅ 4 core components with drag-drop
-2- ✅ Workflow validation & execution
-3- ✅ Document processing (PyMuPDF)
-4- ✅ AI integration (Gemini)
-5- ✅ Web search (SerpAPI)
-6- ✅ Database persistence
-7- ✅ Professional UI/UX
-8- ✅ Chat interface
+## ✅ Core Features Implemented
+
+✅ **4 Core Components** with drag-drop  
+✅ **Workflow Validation & Execution**  
+✅ **Document Processing** (PyMuPDF)  
+✅ **AI Integration** (Gemini)  
+✅ **Web Search** (SerpAPI)  
+✅ **Database Persistence**  
+✅ **Professional UI/UX**  
+✅ **Chat Interface**
 
 ### 🐛 Troubleshooting
 
@@ -130,10 +139,10 @@ npm run dev
 
 ## Demo Video
 
-Watch the demo here: [Demo/project-demo.mp4](./demo/project-demo.mp4)
+- Watch the demo here: [Demo/project-demo.mp4](./demo/project-demo.mp4)
 
-Finally..!!
-## Start building: npm run dev + python -m uvicorn app.main:app --reload --port 8000
+## Finally..!!
 
-## Built with React, FastAPI, and cutting-edge AI technologies.
+- Start building: npm run dev + python -m uvicorn app.main:app --reload --port 8000
+- Built with React, FastAPI, and cutting-edge AI technologies.
 
